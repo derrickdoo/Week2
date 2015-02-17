@@ -13,6 +13,10 @@
 		39E13FD41A9308EF004D9309 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E13FD31A9308EF004D9309 /* Images.xcassets */; };
 		39E13FD71A9308EF004D9309 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39E13FD51A9308EF004D9309 /* LaunchScreen.xib */; };
 		39E13FE31A9308EF004D9309 /* Week2ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E13FE21A9308EF004D9309 /* Week2ProjectTests.swift */; };
+		39E13FED1A930EA5004D9309 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E13FEC1A930EA5004D9309 /* Common.swift */; };
+		39E13FEF1A930EDF004D9309 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E13FEE1A930EDF004D9309 /* IntroViewController.swift */; };
+		39E13FF11A931CDE004D9309 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E13FF01A931CDE004D9309 /* SignInViewController.swift */; };
+		39E13FF31A93280D004D9309 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E13FF21A93280D004D9309 /* TutorialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		39E13FDC1A9308EF004D9309 /* Week2ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E13FE11A9308EF004D9309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39E13FE21A9308EF004D9309 /* Week2ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week2ProjectTests.swift; sourceTree = "<group>"; };
+		39E13FEC1A930EA5004D9309 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		39E13FEE1A930EDF004D9309 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		39E13FF01A931CDE004D9309 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		39E13FF21A93280D004D9309 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +85,16 @@
 		39E13FC91A9308EF004D9309 /* Week2Project */ = {
 			isa = PBXGroup;
 			children = (
+				39E13FEC1A930EA5004D9309 /* Common.swift */,
 				39E13FCC1A9308EF004D9309 /* AppDelegate.swift */,
 				39E13FCE1A9308EF004D9309 /* ViewController.swift */,
 				39E13FD01A9308EF004D9309 /* Main.storyboard */,
 				39E13FD31A9308EF004D9309 /* Images.xcassets */,
 				39E13FD51A9308EF004D9309 /* LaunchScreen.xib */,
 				39E13FCA1A9308EF004D9309 /* Supporting Files */,
+				39E13FEE1A930EDF004D9309 /* IntroViewController.swift */,
+				39E13FF01A931CDE004D9309 /* SignInViewController.swift */,
+				39E13FF21A93280D004D9309 /* TutorialViewController.swift */,
 			);
 			path = Week2Project;
 			sourceTree = "<group>";
@@ -213,7 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				39E13FCF1A9308EF004D9309 /* ViewController.swift in Sources */,
+				39E13FED1A930EA5004D9309 /* Common.swift in Sources */,
 				39E13FCD1A9308EF004D9309 /* AppDelegate.swift in Sources */,
+				39E13FF11A931CDE004D9309 /* SignInViewController.swift in Sources */,
+				39E13FF31A93280D004D9309 /* TutorialViewController.swift in Sources */,
+				39E13FEF1A930EDF004D9309 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
